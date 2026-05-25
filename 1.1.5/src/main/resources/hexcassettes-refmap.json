@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "hexcassettes/miyucomics/hexcassettes/mixin/GuiSpellcastingMixin": {
+      "init": "Lat/petrak/hexcasting/client/gui/GuiSpellcasting;init()V"
+    },
+    "hexcassettes/miyucomics/hexcassettes/mixin/PlayerEntityMixin": {
+      "tick": "Lnet/minecraft/world/entity/player/Player;tick()V"
+    }
+  },
+  "data": {
+    "named:mojang": {
+      "hexcassettes/miyucomics/hexcassettes/mixin/GuiSpellcastingMixin": {
+        "init": "Lat/petrak/hexcasting/client/gui/GuiSpellcasting;init()V"
+      },
+      "hexcassettes/miyucomics/hexcassettes/mixin/PlayerEntityMixin": {
+        "tick": "Lnet/minecraft/world/entity/player/Player;tick()V"
+      }
+    }
+  }
+}
