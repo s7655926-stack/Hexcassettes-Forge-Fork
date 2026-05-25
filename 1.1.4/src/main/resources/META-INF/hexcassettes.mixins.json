@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "hexcassettes.miyucomics.hexcassettes.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "hexcassettes.refmap.json",
+  "mixins": [
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"parent": "hexcasting:root",
+	"criteria": {
+		"got_cassette": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["hexcassettes:cassette"]
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"title": {
+			"translate": "advancements.hexcassettes.tape_worm.title"
+		},
+		"description": {
+			"translate": "advancements.hexcassettes.tape_worm.description"
+		},
+		"frame": "task",
+		"hidden": true,
+		"icon": {
+			"item": "minecraft:music_disc_blocks"
+		},
+		"show_toast": true
+	},
+	"requirements": [["got_cassette"]]
+}

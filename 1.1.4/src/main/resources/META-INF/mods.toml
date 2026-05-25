@@ -1,0 +1,49 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="hexcassettes"
+version="${version}"  # Использует переменную из build.gradle/gradle.properties
+displayName="Hexcassettes (Forge Fork)"
+logoFile="icon.png"
+logoBlur=false
+authors="Mrwyvern, original mod by miyucomics and ChuijkYahus"
+description='''
+An unofficial Forge fork of the original Hexcassettes mod, featuring delayed hex execution, data passing, and experimental automation.
+
+This fork includes additional changes, fixes, and improvements over the original.
+
+⚠️ WARNING: This is an unofficial fork. It may contain bugs, unfinished features, or behavior differences from the original mod.
+
+Original mod:
+https://github.com/miyucomics/hexcassettes
+
+Original authors:
+https://github.com/miyucomics
+https://github.com/ChuijkYahus
+'''
+
+[[dependencies.hexcassettes]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.hexcassettes]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.hexcassettes]]
+modId="hexcasting"
+mandatory=true
+versionRange="[0.10.3,)"
+ordering="AFTER"
+side="BOTH"
+
+[[mixins]]
+config="hexcassettes.mixins.json"
