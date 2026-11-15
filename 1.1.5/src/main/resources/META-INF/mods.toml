@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="hexcassettes"
-version="${version}"  # Использует переменную из build.gradle/gradle.properties
+version="${version}"  # РСЃРїРѕР»СЊР·СѓРµС‚ РїРµСЂРµРјРµРЅРЅСѓСЋ РёР· build.gradle/gradle.properties
 displayName="Hexcassettes (Forge Fork)"
 logoFile="icon.png"
 logoBlur=false
@@ -14,7 +14,7 @@ An unofficial Forge fork of the original Hexcassettes mod, featuring delayed hex
 
 This fork includes additional changes, fixes, and improvements over the original.
 
-⚠️ WARNING: This is an unofficial fork. It may contain bugs, unfinished features, or behavior differences from the original mod.
+вљ пёЏ WARNING: This is an unofficial fork. It may contain bugs, unfinished features, or behavior differences from the original mod.
 
 Original mod:
 https://github.com/miyucomics/hexcassettes
@@ -44,6 +44,3 @@ mandatory=true
 versionRange="[0.10.3,)"
 ordering="AFTER"
 side="BOTH"
-
-[[mixins]]
-config="hexcassettes.mixins.json"
