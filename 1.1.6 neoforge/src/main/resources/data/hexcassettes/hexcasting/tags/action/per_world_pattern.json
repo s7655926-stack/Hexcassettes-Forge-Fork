@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "hexcassettes:delayed_cast",
+    "hexcassettes:repeating_cast"
+  ]
+}

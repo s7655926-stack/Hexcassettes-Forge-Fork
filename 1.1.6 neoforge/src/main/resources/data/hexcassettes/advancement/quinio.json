@@ -1,0 +1,34 @@
+{
+	"parent": "hexcassettes:tape_worm",
+	"criteria": {
+		"got_five_cassettes": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["hexcassettes:cassette"],
+						"count": {
+							"min": 5
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"announce_to_chat": true,
+		"title": {
+			"translate": "advancements.hexcassettes.quinio.title"
+		},
+		"description": {
+			"translate": "advancements.hexcassettes.quinio.description"
+		},
+		"frame": "challenge",
+		"hidden": true,
+		"icon": {
+			"item": "minecraft:clock"
+		},
+		"show_toast": true
+	},
+	"requirements": [["got_five_cassettes"]]
+}

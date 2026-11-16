@@ -1,0 +1,18 @@
+{
+	"cassette_insert": {
+		"category": "player",
+		"sounds": [ "hexcassettes:cassette_insert" ]
+	},
+	"cassette_eject": {
+		"category": "player",
+		"sounds": [ "hexcassettes:cassette_eject" ]
+	},
+	"cassette_fail": {
+		"category": "player",
+		"sounds": [ "hexcassettes:cassette_fail" ]
+	},
+	"cassette_loop": {
+		"category": "player",
+		"sounds": [ "hexcassettes:cassette_loop" ]
+	}
+}

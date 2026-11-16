@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="MIT"
+#issueTrackerURL="https://github.com/miyucomics/hexcassettes/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="icon.png"
+logoBlur=false
+authors="Mrwyvern, original mod by miyucomics and ChuijkYahus"
+description='''
+An unofficial NeoForge port of the original Hexcassettes mod, featuring delayed hex execution, data passing, and experimental automation.
+
+This port includes additional changes, fixes, and improvements over the original.
+
+WARNING: This is an unofficial fork. It may contain bugs, unfinished features, or behavior differences from the original mod.
+
+Original mod:
+https://github.com/miyucomics/hexcassettes
+
+Original authors:
+https://github.com/miyucomics
+https://github.com/ChuijkYahus
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="hexcasting"
+    type="required"
+    versionRange="[0.11.1-19,)"
+    ordering="AFTER"
+    side="BOTH"
